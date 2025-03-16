@@ -4,31 +4,28 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #333;
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    scroll-behavior: smooth; 
 }
 
-/* Header with Image */
 header {
-    background-color: #505295; /* Dark Navy Blue */
+    background-color: #505295; 
     color: #ff5353;
     padding: 20px;
     padding-top: 50px;
     text-align: center;
 }
 
-/* Header Content */
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center; /* Keeps text centered */
+    justify-content: center; 
     gap: 20px;
     position: relative;
 }
 
-/* Move image to the left */
 .header-content img {
     position: absolute;
-    left: 60px; /* Adjust as needed */
+    left: 60px; 
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -36,7 +33,6 @@ header {
 }
 
 
-/* Navigation Bar */
 nav ul {
     list-style: none;
     padding: 0;
@@ -60,34 +56,29 @@ nav ul li a {
     transition: background 0.3s, color 0.3s;
 }
 
-/* Highlight on Hover */
 nav ul li a:hover {
     background-color: #ff741e;
     color: #fff;
 }
 
-/* Motto Section */
 #motto {
     text-align: center;
     padding: 30px;
     font-size: 1.5em;
 }
 
-/* Sections */
 section {
     padding: 40px;
     width: 90%;
     margin: auto;
 }
 
-/* Grid Layout for Projects */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
-/* Highlight Projects on Focus */
 .project {
     background: #fff;
     padding: 15px;
@@ -101,7 +92,6 @@ section {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Skills Section */
 #skills {
     text-align: center;
     padding: 40px;
@@ -123,8 +113,6 @@ section {
     font-size: 16px;
     font-weight: bold;
 }
-
-/* Experience Section */
 #experience {
     background: #fff;
     padding: 40px;
@@ -136,7 +124,7 @@ section {
 .experience {
     background: #fff;
     padding: 20px;
-    border-left: 5px solid #0A3D62; /* Highlighted border */
+    border-left: 5px solid #0A3D62; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     border-radius: 5px;
@@ -150,7 +138,7 @@ section {
     padding-left: 20px;
 }
 
-/* Separator Line Between Experience Entries */
+
 .experience hr {
     border: none;
     height: 2px;
@@ -158,7 +146,6 @@ section {
     margin: 20px 0;
 }
 
-/* Footer (Contact Section) */
 footer {
     background-color: #222;
     color: white;
@@ -172,7 +159,6 @@ footer a {
     text-decoration: none;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
